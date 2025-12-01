@@ -34,3 +34,26 @@ int main() {
     return 0;
 }
 # smart-dustbin-monitoring-system
+1. Auto-Lid Opening Simulation
+
+If fill level < 80% → lid opens
+If full → lid refuses to open
+This simulates sensor-based lids.
+
+2. Smell/Decomposition Sensor (Fake AI Logic)
+
+If waste amount added many times → smell increases.
+If smell > 70% → warning.
+
+3. Time-Based Fill Simulation
+
+Every second of delay increases smell or fill slightly.
+
+4. Multi-Dustbin System (Wet + Dry)
+
+User chooses:
+
+Wet Bin
+
+Dry Bin
+Each fills separately.
